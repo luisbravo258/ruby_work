@@ -1,4 +1,4 @@
-line_width = 50
+line_width = 70
 
 
 chapterone = "Chapter 1: Gets Started"
@@ -9,12 +9,12 @@ one = "Page 1"
 two = "Page 2"
 three = "Page 3"
 
-puts "Table of Content".center(56)
+puts "Table of Content".center(line_width)
 
-puts "=" * 56
+puts "=" * line_width
 
-puts chapterone.ljust(line_width) + one.rjust(0)
+puts chapterone.ljust(line_width/2) + one.rjust(line_width/2)
 
-puts chaptertwo.ljust(line_width) + two.rjust(0)
+puts chaptertwo.ljust(line_width/2) + two.rjust(line_width/2)
 
-puts chapterthree.ljust(line_width) + three.rjust(0)
+puts chapterthree.ljust(line_width/2) + three.rjust(line_width/2)
